@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+body {
+    height: 700px;
+    background-image: url(images/ninjaback1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#goldbox {
+    display: inline;
+    font-size: 1.6em;
+    text-align: center;
+    background: gold;
+    color: black;
+    border: 4px solid black;
+}
+
+.findgold {
+    margin: 40px;
+    background: gold;
+    color: black;
+}
+
+#activities {
+    border: 2px solid black;
+}
+
+.innerbox {
+    font-size: 1.4em;
+    border: 4px solid black;
+    background-image: url(images/bambooback1.jpg);
+    width: 300px;
+    margin: auto;
+    /*margin-left: 110px;*/
+}
+
+#resetbutton {
+    width: 80px;
+    background-color: red;
+    color: black;
+}
+
+.title {
+    color: black;
+}
